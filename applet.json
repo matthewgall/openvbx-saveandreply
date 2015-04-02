@@ -1,0 +1,5 @@
+{
+    "name" : "Save and Reply",
+    "description" : "Store SMS messages in your inbox and reply to the sender",
+    "type" : "sms"
+}
