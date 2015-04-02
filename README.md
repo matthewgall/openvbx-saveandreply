@@ -21,9 +21,8 @@ Once installed, New applets will appear on the sidebar when you create flows. Yo
 
 #### Applets
 
-##### Dial Record
+##### Save and Reply
 
-This works exactly the same way as the standard Dial applet with a few additional features:
+This works exactly the same way as the standard Send a Reply applet with a few additional features:
 
-* You have the option of telling the caller something before the dial happens. This is useful for "call may be recorded" messages.
-* You can record the dial as it is ringing or when it is answered. It is recommended that you wait until the call is answered.
+* You have the option of saving the incoming SMS to a user or group mailbox before the response is sent;
