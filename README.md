@@ -19,9 +19,9 @@ If you find any issues please open a [support request] [1].
 
 Once installed, New applets will appear on the sidebar when you create flows. You will also see a new page appear on the sidebar.
 
-### Applets
+## Applets
 
-##### Save and Reply
+### Save and Reply
 
 This works exactly the same way as the standard Send a Reply applet with a few additional features:
 
