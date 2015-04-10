@@ -9,4 +9,8 @@
 			<textarea name="sms" class="medium"><?php echo AppletInstance::getValue('sms'); ?></textarea>
 		</fieldset>
 
+        <h2>Then, move on to the next applet</h2>
+        <div class="vbx-full-pane">
+		    <?php echo AppletUI::DropZone('next'); ?>
+	    </div><!-- .vbx-full-pane -->
 </div><!-- .vbx-applet -->

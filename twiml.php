@@ -56,4 +56,11 @@ else
     $response->message("We were unable to process your text message. Please try again later.");    
 }
 
+// If we have an applet lined up, then we'll fetch it
+$next = AppletInstance::getDropZoneUrl('next');
+// And redirect if it is defined
+if(!empty($next))
+	$response->addRedirect($next);
+
+// Otherwise, we'll respond
 $response->respond();
